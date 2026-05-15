@@ -1,9 +1,11 @@
 # Göksu Arslan DSA210 Project
 
 **1. Motivation**
+
 The main motivation of this project is to analyze how different traffic-related factors influence travel duration and to evaluate the accuracy of estimated travel times using real-life driving data. In addition, the project aims to predict travel duration using basic machine learning models and data science techniques.
    
 **2. Data Collection**
+
 The dataset used in this project was collected manually from real-life driving experiences between April 1 and April 14. The trips were made by the author, family members, and friends under different traffic conditions and routes.
 
 For each trip, several variables were recorded, including:
@@ -26,6 +28,7 @@ The project analysis followed several stages including:
   4. Machine learning modeling
 
 **4. Exploratory Data Analysis**
+
 Initially, the dataset was cleaned and transformed into a suitable format for analysis.
 
 Time-related variables were converted into datetime format and travel durations were standardized into minutes. Additional variables such as delay and rush hour indicators were also created.
@@ -74,6 +77,7 @@ A comparison table of model perfomance:
 <img width="660" height="173" alt="image" src="https://github.com/user-attachments/assets/75280b15-bd6d-4cd6-abdc-53f01a476072" />
 
 **6. Findings**
+
 The analysis revealed several important findings regarding travel duration and traffic behavior.
 * Actual travel duration showed a right-skewed distribution, meaning that most trips were relatively short while a few trips lasted significantly longer.
 * Delay values were generally centered around zero, indicating that estimated travel times were usually close to actual travel durations.
@@ -93,6 +97,7 @@ Machine learning results also showed strong predictive performance:
 Overall, the results demonstrate that travel duration can be predicted successfully using simple transportation-related variables.
 
 **7. Limitations and Future Work**
+
 One of the main limitations of this study is the relatively small dataset size collected over a limited time period. Since the data was self-collected, it may also reflect specific driving habits and geographic conditions.
 
 Additionally, the project focused on a limited number of variables. Factors such as weather conditions, accidents, road quality, and real-time traffic incidents were not included in the analysis.
