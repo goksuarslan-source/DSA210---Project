@@ -1,5 +1,8 @@
 # Göksu Arslan DSA210 Project
 
+This repository contains my Data Science and Analytics project, which focuses on analyzing the factors affecting daily travel duration using real-life driving data. By examining variables such as traffic level, distance, rush hours, traffic lights, and estimated travel times, this project aims to understand urban travel behavior and evaluate the reliability of navigation tools like Google Maps. Using statistical analysis and Machine Learning models, the project also explores whether travel duration can be predicted accurately through simple transportation-related features.
+
+
 **1. Motivation**
 
 The main motivation of this project is to analyze how different traffic-related factors influence travel duration and to evaluate the accuracy of estimated travel times using real-life driving data. In addition, the project aims to predict travel duration using basic machine learning models and data science techniques.
